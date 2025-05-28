@@ -1,0 +1,10 @@
+He tenido que instalar npm jsdom, para poder acceder a document a través del DOM
+ahora npm install canvas por que estoy con node.js
+me da error el código de DOM que había puesto, lo elimino y a través del navegador, veo que no hace falta. 
+Ahora me da error el reuire pro trabajar con Node.js y ser un módulo. Ya que los navegadores no lo pueden entender.
+Pongo que es tipo modulo dentro del archivo HTML, ahora me da este errorindex.html:1 Access to script at 'file:///C:/Users/const/TS/aspect-ratio.mjs' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+Así que voy a instalar Live Server, para poder ejecutar el código en el navegador y no me de error.
+
+Me estaba saliendo undefined continuamente, el problema era que estaba poniendo console.log en vez de retun en la función. 
+Intento poner la foto pero, sale indefinicio al buscarla con el console.log en el navegador
+he añadido la tiografia poppins con google fonts.

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Aspect Ratio</title>
+</head>
+<body>
+    <header>
+        <h1>ASPECT RATIO</h1>
+        <h2>Conoce el aspect ratio de tu imagen</h2>
+        <hr />
+    </header>
+
+
+    <form>
+        <h3>¿Qué es el aspect ratio?</h3>
+        <p>El aspect ratio es la relación entre el ancho y el alto de una imagen. Se expresa como una proporción, como 16:9 o 4:3.</p>
+        <label id ="imagen">Sube tú imágen</label>
+        <input id = myfiles type="file" id="imagen" name="imagen" accept="image/png, image/jpeg, image/jpg" required />
+        <br />
+        <button  type="button" id="calculate">Calcular Aspect Ratio</button>
+    
+    </form>
+    <script src="aspect-ratio.cjs"></script>
+</body>
+
+</html>
